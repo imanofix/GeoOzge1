@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>География - Учим столицы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О проекте</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="facts">
+    <h2>Интересные факты о странах</h2>
+    <p>Самая большая страна в мире по площади — Россия. Самая маленькая — Ватикан.</p>
+    <p>В Японии более 6800 островов, а в Африке находится самая длинная река — Нил.</p>
+  </section>
+
+  <main>
+    <div class="flashcards">
+      <h2>Учим столицы</h2>
+      <div id="flashcard" onclick="flipCard()">
+        <div class="front">Франция</div>
+        <div class="back">Париж</div>
+      </div>
+      <button onclick="nextCard()">Следующая карточка</button>
+    </div>
+
+    <div class="images">
+      <h2>Достопримечательности</h2>
+      <img id="landmark" src="images/eiffel.jpg" alt="Достопримечательность">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
